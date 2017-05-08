@@ -24,7 +24,7 @@ $(function() {
 
   var newTrip = new Trip(inputtedLocation, inputtedFood, inputtedMemory, inputtedYear, inputtedSeason);
 
-
+  $("ul#trips").append("<li><span class='trip'>" + newTrip.spot() + "</span></li>");
 
 
 
