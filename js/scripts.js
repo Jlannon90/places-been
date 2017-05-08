@@ -14,7 +14,20 @@ Trip.prototype.spot = function() {
 //user interface logic
 
 $(function() {
-  $()
+  $("form#new-trip").submit(function(event) {
+
+  var inputtedLocation = $("input#new-location").val();
+  var inputtedFood = $("input#new-food").val();
+  var inputtedMemory = $("input#new-memory").val();
+  var inputtedYear = $("input#new-year").val();
+  var inputtedSeason = $("input#new-season").val();
+
+
+
+
+
+
+  });
 
 
 

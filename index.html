@@ -10,35 +10,50 @@
   </head>
   <body>
     <div class="container">
-      <h1>Address book</h1>
+      <h1>Places You've Been</h1>
 
       <div class="row">
         <div class="col-md-6">
-          <h2>Add a contact:</h2>
-          <form id="new-contact">
+          <h2>Add a trip:</h2>
+          <form id="new-trip">
             <div class="form-group">
-              <label for="new-first-name">First name</label>
-              <input type="text" class="form-control" id="new-first-name">
+              <label for="new-location">Where was it?</label>
+              <input type="text" class="form-control" id="new-location">
             </div>
             <div class="form-group">
-              <label for="new-last-name">Last name</label>
-              <input type="text" class="form-control" id="new-last-name">
+              <label for="new-food">What was your favorite food you at there?</label>
+              <input type="text" class="form-control" id="new-food">
+            </div>
+            <div class="form-group">
+              <label for="new-memory">What was your favorite memory from this trip?</label>
+              <input type="text" class="form-control" id="new-memory">
+            </div>
+            <div class="form-group">
+              <label for="new-year">When was your trip?</label>
+              <input type="text" class="form-control" id="new-year">
+            </div>
+            <div class="form-group">
+              <label for="new-season">What season was it?</label>
+              <input type="text" class="form-control" id="new-season">
             </div>
 
             <button type="submit" class="btn">Add</button>
           </form>
 
           <h2>Contacts:</h2>
-          <ul id="contacts">
+          <ul id="trips">
 
           </ul>
         </div>
         <div class="col-md-6">
-          <div id="show-contact">
+          <div id="show-trip">
             <h2></h2>
 
-            <p>First name: <span class="first-name"></span></p>
-            <p>Last name: <span class="last-name"></span></p>
+            <p>Location: <span class="location"></span></p>
+            <p>Best Food: <span class="food"></span></p>
+            <p>Favorite Memory: <span class="memory"></span></p>
+            <p>Year: <span class="last-year"></span></p>
+            <p>Season: <span class="last-season"></span></p>
           </div>
         </div>
       </div>
