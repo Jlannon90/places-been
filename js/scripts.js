@@ -1,7 +1,7 @@
 //business logic
 function Trip(location, bestFood, favoriteMemory, year, season) {
   this.loc = location;
-  this.grub = bestFood;
+  this.grub = bestFstryood;
   this.mem = favoriteMemory;
   this.time = year;
   this.weather = season;
@@ -39,6 +39,9 @@ $(document).ready(function() {
   });
     $("input#new-location").val("");
     $("input#new-food").val("");
+    $("input#new-memory").val("");
+    $("input#new-year").val("");
+    $("input#new-season").val("");
 
   });
 });
