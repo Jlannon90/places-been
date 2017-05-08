@@ -22,6 +22,7 @@ $(function() {
   var inputtedYear = $("input#new-year").val();
   var inputtedSeason = $("input#new-season").val();
 
+  var newTrip = new Trip(inputtedLocation, inputtedFood, inputtedMemory, inputtedYear, inputtedSeason);
 
 
 
